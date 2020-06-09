@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  markdown:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Install markdownlint-cli
+      run: npm install markdownlint-cli
+    - name: Check markdown file(s)
+      run: npx markdownlint '**/*.md' --ignore node_modules
