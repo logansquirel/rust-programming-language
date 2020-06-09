@@ -4,4 +4,4 @@
 cargo build --verbose --release --workspace --all-targets --all-features
 cargo test --verbose --release --workspace --all-targets --all-features
 cargo clippy --verbose --workspace --all-targets --all-features -- -D warnings
-cargo fmt --verbose --all -- --check --files-with-diff
+cargo fmt --all -- --check
