@@ -1,0 +1,8 @@
+[package]
+name = "chapter02_guessing-game"
+version = "0.1.0"
+authors = ["Logan Squirel <logan.squirel@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.7"
