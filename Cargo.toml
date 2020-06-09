@@ -2,4 +2,5 @@
 members = [
     "chapter01/hello_cargo",
     "chapter02/guessing_game",
+    "chapter03/variables",
     ]
