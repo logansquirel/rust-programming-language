@@ -20,7 +20,7 @@ jobs:
   build:
     strategy:
       matrix:
-        rust: [stable, beta, nightly, 1.41.0]
+        rust: [stable, beta, nightly, 1.43.0]
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
@@ -41,7 +41,7 @@ jobs:
   test:
     strategy:
       matrix:
-        rust: [stable, beta, nightly, 1.41.0]
+        rust: [stable, beta, nightly, 1.43.0]
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
@@ -62,7 +62,7 @@ jobs:
   fmt:
     strategy:
       matrix:
-        rust: [stable, beta, nightly, 1.41.0]
+        rust: [stable, beta, nightly, 1.43.0]
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
@@ -84,7 +84,7 @@ jobs:
   clippy:
     strategy:
       matrix:
-        rust: [stable, beta, nightly, 1.41.0]
+        rust: [stable, beta, nightly, 1.43.0]
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
