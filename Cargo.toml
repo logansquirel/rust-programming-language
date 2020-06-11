@@ -9,4 +9,5 @@ members = [
     "chapter03/chars",
     "chapter03/tuples",
     "chapter03/arrays",
+    "chapter03/functions",
     ]
