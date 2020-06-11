@@ -1,5 +1,5 @@
 [package]
-name = "tuples"
+name = "chapter03_tuples"
 version = "0.1.0"
 authors = ["Logan Squirel <logan.squirel@protonmail.com>"]
 edition = "2018"
