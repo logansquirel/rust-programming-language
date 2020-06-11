@@ -5,4 +5,5 @@ members = [
     "chapter03/variables",
     "chapter03/integers",
     "chapter03/floats",
+    "chapter03/booleans",
     ]
