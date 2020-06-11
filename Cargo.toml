@@ -10,4 +10,5 @@ members = [
     "chapter03/tuples",
     "chapter03/arrays",
     "chapter03/functions",
+    "chapter03/control_flow",
     ]
