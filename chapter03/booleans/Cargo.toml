@@ -1,5 +1,5 @@
 [package]
-name = "booleans"
+name = "chapter03_booleans"
 version = "0.1.0"
 authors = ["Logan Squirel <logan.squirel@protonmail.com>"]
 edition = "2018"

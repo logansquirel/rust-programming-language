@@ -1,5 +1,5 @@
 [package]
-name = "integers"
+name = "chapter03_integers"
 version = "0.1.0"
 authors = ["Logan Squirel <logan.squirel@protonmail.com>"]
 edition = "2018"
