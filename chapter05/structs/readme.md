@@ -72,3 +72,42 @@ let user2 =  User {
     ..user1, // equivalent to sign_in_count: user1.sign_in_count, active: user1.active,
 }
 ```
+
+## Methods
+
+Methods are defined in an implementation block and take ownership or reference
+self (immutable or mutable reference):
+
+```rust
+impl User {
+    fn email(&self) -> &str {
+        &self.email
+    }
+
+    fn update_email(&mut self, new_email: String) {
+        self.email = new_email;
+    }
+
+    fn into_email(self) -> String {
+        self.email
+    }
+}
+```
+
+## Associated functions
+
+Associated functions are also defined in an implementation block without self
+reference/borrowing:
+
+```rust
+impl User {
+    fn new(username: String, email: String) -> Self {
+        User {
+            username,
+            email,
+            sign_in_count: 1,
+            active: true,
+        }
+    }
+}
+```
