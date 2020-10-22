@@ -12,4 +12,5 @@ members = [
     "chapter03/functions",
     "chapter03/control_flow",
     "chapter03/programs/ftoc",
+    "chapter03/programs/ctof",
     ]
