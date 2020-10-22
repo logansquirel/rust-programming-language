@@ -26,4 +26,5 @@ members = [
     "chapter08/string",
     "chapter08/hashmap",
     "chapter09/panic",
+    "chapter09/result",
     ]
