@@ -24,4 +24,5 @@ members = [
     "chapter07/restaurant",
     "chapter08/vec",
     "chapter08/string",
+    "chapter08/hashmap",
     ]
