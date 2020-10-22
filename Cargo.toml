@@ -22,4 +22,5 @@ members = [
     "chapter05/rectangles",
     "chapter06/enums",
     "chapter07/restaurant",
+    "chapter08/vec",
     ]
