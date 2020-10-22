@@ -11,4 +11,8 @@ members = [
     "chapter03/arrays",
     "chapter03/functions",
     "chapter03/control_flow",
+    "chapter03/programs/ftoc",
+    "chapter03/programs/ctof",
+    "chapter03/programs/fibonacci",
+    "chapter03/programs/christmas_carol",
     ]
