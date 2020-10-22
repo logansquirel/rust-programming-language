@@ -18,4 +18,6 @@ members = [
     "chapter04/ownership",
     "chapter04/references",
     "chapter04/slices",
+    "chapter05/structs",
+    "chapter05/rectangles",
     ]
