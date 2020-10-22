@@ -6,8 +6,11 @@
 
 - Website: <https://rustup.rs/>
 - Repository: <https://github.com/rust-lang/rustup/>
+- Help: `rustup help`
 
 ## Installation
+
+Command-line/Terminal installation:
 
 ```console
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -29,15 +32,11 @@ Common toolchains:
 - *beta*
 - *nightly*
 
-## Documentation
-
-```console
-rustup help
-```
-
 ## Commands
 
 ### Update
+
+Update all installed toolchains:
 
 ```console
 rustup update
@@ -45,12 +44,24 @@ rustup update
 
 ### Install toolchain(s)
 
+Install a specific toolchain `stable|beta|nightly|<version>`:
+
 ```console
 rustup install <toolchain>
 ```
 
 ### Change default toolchain
 
+Change default toolchain to `stable|beta|nightly|<version>`:
+
 ```console
 rustup default <toolchain>
+```
+
+### Documentation
+
+Open local documentation (including books and standard library):
+
+```console
+rustup doc
 ```
