@@ -16,4 +16,5 @@ members = [
     "chapter03/programs/fibonacci",
     "chapter03/programs/christmas_carol",
     "chapter04/ownership",
+    "chapter04/references",
     ]
