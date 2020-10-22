@@ -20,4 +20,5 @@ members = [
     "chapter04/slices",
     "chapter05/structs",
     "chapter05/rectangles",
+    "chapter06/enums",
     ]
