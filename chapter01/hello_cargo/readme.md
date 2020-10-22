@@ -1,6 +1,6 @@
 # chapter01/hello_cargo
 
-Simple `hello world!` with cargo.
+Simple `hello world!` with `cargo`.
 
 ## Initialisation
 
@@ -26,8 +26,8 @@ Cargo configuration is in `Cargo.toml` file and use
 
 Cargo provides two modes:
 
-- *debug* for fast compilation and debug information
-- *release* for fast run
+- *debug* for fast compilation time and debug information
+- *release* for fast runtime
 
 All files/executables are generated in a `target` directory.
 
