@@ -1,5 +1,6 @@
 # chapter09/panic
 
+<!-- markdownlint-disable MD013 -->
 ## Run
 
 Without backtrace:
@@ -70,3 +71,4 @@ stack backtrace:
   24:     0x56322792c08e - _start
   25:                0x0 - <unknown>
 ```
+<!-- markdownlint-enable MD013 -->
