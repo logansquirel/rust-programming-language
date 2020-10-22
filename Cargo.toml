@@ -11,4 +11,5 @@ members = [
     "chapter03/arrays",
     "chapter03/functions",
     "chapter03/control_flow",
+    "chapter03/programs/ftoc",
     ]
