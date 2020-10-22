@@ -89,13 +89,12 @@ fn makes_copy(some_integer: i32) {
     println!("{}", some_integer);
 } // Here, some_integer goes out of scope. Nothing special happens.
 
+#[allow(clippy::let_and_return)]
 fn gives_ownership() -> String {
     // gives_ownership will move its
     // return value into the function
     // that calls it
-
     let some_string = String::from("hello"); // some_string comes into scope
-
     some_string // some_string is returned and
                 // moves out to the calling
                 // function
